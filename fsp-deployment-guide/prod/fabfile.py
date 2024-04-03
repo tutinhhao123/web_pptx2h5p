@@ -40,7 +40,13 @@ env.ssh_key_dir = '~/fsp-deployment-guide/ssh_keys'
    complete the bootstrap process.
 """
 def bootstrap():
-    local('ssh-keygen -R %s' % env.host_string)
+    local('mkdir -p ~/fsp-deployment-guide/ssh_keys')
+    local('ssh-keygen -t rsa -b 2048')
+    local('cp prod_key.pub authorized_keys')
+    local('mv prod_key ~/fsp-deployment-guide/ssh_keys/')
+    local('mv prod_key.pub ~/fsp-deployment-guide/ssh_keys/')
+
+    local('mv authorized_keys ~/fsp-deployment-guide/ssh_keys/')
     sed('/etc/ssh/sshd_config', '^UsePAM yes', 'UsePAM no')
     sed('/etc/ssh/sshd_config', '^PermitRootLogin yes', 'PermitRootLogin no')
     sed('/etc/ssh/sshd_config', '^#PasswordAuthentication yes',

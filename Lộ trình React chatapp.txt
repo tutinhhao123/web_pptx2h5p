@@ -1,0 +1,70 @@
+Yêu cầu : biết html, css và javascript cơ bản, đã có sẵn server
+----------------------------------------------
+Ngày 1: Làm quen với React
+
+0-2h: Cài đặt môi trường: Node.js, npm và create-react-app. Khởi tạo dự án mới với create-react-app.
+2-4h: Làm quen với JSX và render elements.
+4-6h: Tìm hiểu về components và props.
+6-8h: Làm quen với state và lifecycle methods.
+----------------------------------------------
+Ngày 2: Dive sâu vào React
+
+0-2h: Sự kiện (Event) trong React.
+2-4h: Conditional rendering và Lists & Keys.
+4-6h: Làm quen với React Hooks (useState, useEffect).
+6-8h: Làm quen với useRef và useContext.
+----------------------------------------------
+Ngày 3: Quản lý State
+
+0-2h: Giới thiệu về Context API.
+2-4h: Tạo và sử dụng Context cho ứng dụng chat.
+4-6h: Làm quen với useReducer.
+6-8h: Áp dụng useReducer cho ứng dụng.
+----------------------------------------------
+Ngày 4: Routing và Styling
+
+0-2h: Giới thiệu về React Router.
+2-4h: Thêm routing cho ứng dụng (đăng nhập, danh sách phòng chat, phòng chat).
+4-6h: Giới thiệu Styled Components.
+6-8h: Style cho ứng dụng.
+----------------------------------------------
+Ngày 5: Xây dựng cơ bản cho ứng dụng chat
+
+0-4h: Thiết kế giao diện cho trang đăng nhập, danh sách phòng chat và trang chat.
+4-8h: Kết nối với server realtime, thực hiện gửi và nhận tin nhắn.
+----------------------------------------------
+Ngày 6: Thêm tính năng cho ứng dụng
+
+0-2h: Xem danh sách người dùng online.
+2-4h: Thêm tính năng tạo và tham gia phòng chat.
+4-6h: Thông báo khi có tin nhắn mới.
+6-8h: Xem thông tin chi tiết của một người dùng.
+----------------------------------------------
+Ngày 7: Tối ưu và bảo mật
+
+0-2h: Tối ưu hóa performance.
+2-4h: Làm quen với React DevTools.
+4-6h: Bảo mật trong ứng dụng chat: xác thực người dùng, phân quyền.
+6-8h: Áp dụng bảo mật vào ứng dụng.
+----------------------------------------------
+Ngày 8: Test ứng dụng
+
+0-2h: Giới thiệu về testing trong React.
+2-4h: Viết test cho components.
+4-6h: Viết test cho logic (hooks, reducers).
+6-8h: Sử dụng công cụ như Jest và React Testing Library.
+----------------------------------------------
+Ngày 9: Chuẩn bị cho deployment
+
+0-2h: Làm quen với build tools và Webpack.
+2-4h: Optimize ứng dụng cho production.
+4-6h: Làm quen với môi trường deployment như Vercel, Netlify.
+6-8h: Deploy ứng dụng.
+----------------------------------------------
+Ngày 10: Review và tối ưu
+
+0-4h: Review toàn bộ ứng dụng và chức năng.
+4-6h: Tối ưu code, refactor nếu cần.
+6-8h: Tìm và sửa lỗi cuối cùng, kiểm tra ứng dụng trên môi trường thực tế.
+
+Thời gian lộ trình: 10 ngày, 8h/ngày
