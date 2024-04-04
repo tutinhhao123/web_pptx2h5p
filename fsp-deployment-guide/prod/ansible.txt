@@ -1,0 +1,4 @@
+[defaults]
+inventory = ~/fsp-deployment-guide/web_pptx2h5p/fsp-deployment-guide/prod/hosts.ini
+remote_user = deployer22
+private_key_file = ~/fsp-deployment-guide/web_pptx2h5p/fsp-deployment-guide/ssh_keys/prod_key
