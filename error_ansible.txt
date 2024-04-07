@@ -1,0 +1,4 @@
+ sudo apt-get install sshpass
+# succes
+ sudo ansible all -m ping -u deployer111 --ask-pass -i ./ansible_quickstart/inventor
+y.ini
